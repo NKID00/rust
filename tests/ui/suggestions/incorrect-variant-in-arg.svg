@@ -74,7 +74,7 @@
 </tspan>
     <tspan x="10px" y="478px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="496px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::Struct);  // Suggestion was malformed</tspan>
+    <tspan x="10px" y="496px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::Struct); // Suggestion was malformed</tspan>
 </tspan>
     <tspan x="10px" y="514px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>         </tspan><tspan class="fg-ansi256-009 bold">^^^^^^^^^^^^</tspan><tspan> </tspan><tspan class="fg-ansi256-009 bold">not a value</tspan>
 </tspan>
@@ -84,7 +84,7 @@
 </tspan>
     <tspan x="10px" y="568px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="586px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">| </tspan><tspan>    foo(Enum::Struct</tspan><tspan class="fg-ansi256-010"> { x: /* value */ }</tspan><tspan>);  // Suggestion was malformed</tspan>
+    <tspan x="10px" y="586px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">| </tspan><tspan>    foo(Enum::Struct</tspan><tspan class="fg-ansi256-010"> { x: /* value */ }</tspan><tspan>); // Suggestion was malformed</tspan>
 </tspan>
     <tspan x="10px" y="604px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>                      </tspan><tspan class="fg-ansi256-010">++++++++++++++++++</tspan>
 </tspan>
@@ -496,7 +496,7 @@
 </tspan>
     <tspan x="10px" y="4276px"><tspan class="fg-ansi256-012 bold">...</tspan>
 </tspan>
-    <tspan x="10px" y="4294px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::unit);  // Suggestion was malformed</tspan>
+    <tspan x="10px" y="4294px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::unit); // Suggestion was malformed</tspan>
 </tspan>
     <tspan x="10px" y="4312px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>               </tspan><tspan class="fg-ansi256-009 bold">^^^^</tspan><tspan> </tspan><tspan class="fg-ansi256-009 bold">variant or associated item not found in `Enum`</tspan>
 </tspan>
@@ -506,9 +506,9 @@
 </tspan>
     <tspan x="10px" y="4366px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="4384px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">unit</tspan><tspan>);  // Suggestion was malformed</tspan>
+    <tspan x="10px" y="4384px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">unit</tspan><tspan>); // Suggestion was malformed</tspan>
 </tspan>
-    <tspan x="10px" y="4402px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Unit</tspan><tspan>);  // Suggestion was malformed</tspan>
+    <tspan x="10px" y="4402px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Unit</tspan><tspan>); // Suggestion was malformed</tspan>
 </tspan>
     <tspan x="10px" y="4420px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
@@ -526,7 +526,7 @@
 </tspan>
     <tspan x="10px" y="4546px"><tspan class="fg-ansi256-012 bold">...</tspan>
 </tspan>
-    <tspan x="10px" y="4564px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::tuple);  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="4564px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::tuple); // Suggestion is enhanced</tspan>
 </tspan>
     <tspan x="10px" y="4582px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>               </tspan><tspan class="fg-ansi256-009 bold">^^^^^</tspan><tspan> </tspan><tspan class="fg-ansi256-009 bold">variant or associated item not found in `Enum`</tspan>
 </tspan>
@@ -536,9 +536,9 @@
 </tspan>
     <tspan x="10px" y="4636px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="4654px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">tuple</tspan><tspan>);  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="4654px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">tuple</tspan><tspan>); // Suggestion is enhanced</tspan>
 </tspan>
-    <tspan x="10px" y="4672px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Tuple</tspan><tspan>);  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="4672px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Tuple(/* i32 */)</tspan><tspan>); // Suggestion is enhanced</tspan>
 </tspan>
     <tspan x="10px" y="4690px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
@@ -556,7 +556,7 @@
 </tspan>
     <tspan x="10px" y="4816px"><tspan class="fg-ansi256-012 bold">...</tspan>
 </tspan>
-    <tspan x="10px" y="4834px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::r#struct);  // Suggestion was malformed</tspan>
+    <tspan x="10px" y="4834px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::r#struct); // Suggestion was malformed</tspan>
 </tspan>
     <tspan x="10px" y="4852px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>               </tspan><tspan class="fg-ansi256-009 bold">^^^^^^^^</tspan><tspan> </tspan><tspan class="fg-ansi256-009 bold">variant or associated item not found in `Enum`</tspan>
 </tspan>
@@ -566,9 +566,9 @@
 </tspan>
     <tspan x="10px" y="4906px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="4924px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">r#struct</tspan><tspan>);  // Suggestion was malformed</tspan>
+    <tspan x="10px" y="4924px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">r#struct</tspan><tspan>); // Suggestion was malformed</tspan>
 </tspan>
-    <tspan x="10px" y="4942px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Struct { x: /* value */ }</tspan><tspan>);  // Suggestion was malformed</tspan>
+    <tspan x="10px" y="4942px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Struct { x: /* value */ }</tspan><tspan>); // Suggestion was malformed</tspan>
 </tspan>
     <tspan x="10px" y="4960px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
@@ -676,7 +676,7 @@
 </tspan>
     <tspan x="10px" y="5896px"><tspan class="fg-ansi256-012 bold">...</tspan>
 </tspan>
-    <tspan x="10px" y="5914px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::unit {});  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="5914px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::unit {}); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="5932px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>               </tspan><tspan class="fg-ansi256-009 bold">^^^^</tspan>
 </tspan>
@@ -686,9 +686,9 @@
 </tspan>
     <tspan x="10px" y="5986px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="6004px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">unit</tspan><tspan> {});  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="6004px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">unit</tspan><tspan> {}); // Suggestion could be enhanced</tspan>
 </tspan>
-    <tspan x="10px" y="6022px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Unit</tspan><tspan> {});  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="6022px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Unit</tspan><tspan> {}); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="6040px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
@@ -706,7 +706,7 @@
 </tspan>
     <tspan x="10px" y="6166px"><tspan class="fg-ansi256-012 bold">...</tspan>
 </tspan>
-    <tspan x="10px" y="6184px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::tuple {});  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="6184px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::tuple {}); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="6202px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>               </tspan><tspan class="fg-ansi256-009 bold">^^^^^</tspan>
 </tspan>
@@ -716,9 +716,9 @@
 </tspan>
     <tspan x="10px" y="6256px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="6274px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">tuple</tspan><tspan> {});  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="6274px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">tuple</tspan><tspan> {}); // Suggestion could be enhanced</tspan>
 </tspan>
-    <tspan x="10px" y="6292px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Tuple</tspan><tspan> {});  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="6292px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Tuple</tspan><tspan> {}); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="6310px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
@@ -736,7 +736,7 @@
 </tspan>
     <tspan x="10px" y="6436px"><tspan class="fg-ansi256-012 bold">...</tspan>
 </tspan>
-    <tspan x="10px" y="6454px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::r#struct {});  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="6454px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::r#struct {}); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="6472px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>               </tspan><tspan class="fg-ansi256-009 bold">^^^^^^^^</tspan>
 </tspan>
@@ -746,9 +746,9 @@
 </tspan>
     <tspan x="10px" y="6526px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="6544px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">r#struct</tspan><tspan> {});  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="6544px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">r#struct</tspan><tspan> {}); // Suggestion could be enhanced</tspan>
 </tspan>
-    <tspan x="10px" y="6562px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Struct</tspan><tspan> {});  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="6562px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Struct</tspan><tspan> {}); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="6580px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
@@ -856,7 +856,7 @@
 </tspan>
     <tspan x="10px" y="7516px"><tspan class="fg-ansi256-012 bold">...</tspan>
 </tspan>
-    <tspan x="10px" y="7534px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::unit { x: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="7534px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::unit { x: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="7552px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>               </tspan><tspan class="fg-ansi256-009 bold">^^^^</tspan>
 </tspan>
@@ -866,9 +866,9 @@
 </tspan>
     <tspan x="10px" y="7606px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="7624px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">unit</tspan><tspan> { x: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="7624px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">unit</tspan><tspan> { x: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
-    <tspan x="10px" y="7642px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Unit</tspan><tspan> { x: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="7642px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Unit</tspan><tspan> { x: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="7660px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
@@ -886,7 +886,7 @@
 </tspan>
     <tspan x="10px" y="7786px"><tspan class="fg-ansi256-012 bold">...</tspan>
 </tspan>
-    <tspan x="10px" y="7804px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::tuple { x: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="7804px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::tuple { x: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="7822px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>               </tspan><tspan class="fg-ansi256-009 bold">^^^^^</tspan>
 </tspan>
@@ -896,9 +896,9 @@
 </tspan>
     <tspan x="10px" y="7876px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="7894px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">tuple</tspan><tspan> { x: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="7894px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">tuple</tspan><tspan> { x: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
-    <tspan x="10px" y="7912px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Tuple</tspan><tspan> { x: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="7912px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Tuple</tspan><tspan> { x: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="7930px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
@@ -1036,7 +1036,7 @@
 </tspan>
     <tspan x="10px" y="9136px"><tspan class="fg-ansi256-012 bold">...</tspan>
 </tspan>
-    <tspan x="10px" y="9154px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::unit { x: 0, y: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="9154px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::unit { x: 0, y: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="9172px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>               </tspan><tspan class="fg-ansi256-009 bold">^^^^</tspan>
 </tspan>
@@ -1046,9 +1046,9 @@
 </tspan>
     <tspan x="10px" y="9226px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="9244px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">unit</tspan><tspan> { x: 0, y: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="9244px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">unit</tspan><tspan> { x: 0, y: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
-    <tspan x="10px" y="9262px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Unit</tspan><tspan> { x: 0, y: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="9262px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Unit</tspan><tspan> { x: 0, y: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="9280px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
@@ -1066,7 +1066,7 @@
 </tspan>
     <tspan x="10px" y="9406px"><tspan class="fg-ansi256-012 bold">...</tspan>
 </tspan>
-    <tspan x="10px" y="9424px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::tuple { x: 0, y: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="9424px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::tuple { x: 0, y: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="9442px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>               </tspan><tspan class="fg-ansi256-009 bold">^^^^^</tspan>
 </tspan>
@@ -1076,9 +1076,9 @@
 </tspan>
     <tspan x="10px" y="9496px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="9514px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">tuple</tspan><tspan> { x: 0, y: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="9514px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">tuple</tspan><tspan> { x: 0, y: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
-    <tspan x="10px" y="9532px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Tuple</tspan><tspan> { x: 0, y: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="9532px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Tuple</tspan><tspan> { x: 0, y: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="9550px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
@@ -1096,7 +1096,7 @@
 </tspan>
     <tspan x="10px" y="9676px"><tspan class="fg-ansi256-012 bold">...</tspan>
 </tspan>
-    <tspan x="10px" y="9694px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::r#struct { x: 0, y: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="9694px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>     foo(Enum::r#struct { x: 0, y: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="9712px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan><tspan>               </tspan><tspan class="fg-ansi256-009 bold">^^^^^^^^</tspan>
 </tspan>
@@ -1106,9 +1106,9 @@
 </tspan>
     <tspan x="10px" y="9766px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>
-    <tspan x="10px" y="9784px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">r#struct</tspan><tspan> { x: 0, y: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="9784px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-009">- </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-009">r#struct</tspan><tspan> { x: 0, y: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
-    <tspan x="10px" y="9802px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Struct</tspan><tspan> { x: 0, y: 0 });  // Suggestion could be enhanced</tspan>
+    <tspan x="10px" y="9802px"><tspan class="fg-ansi256-012 bold">LL</tspan><tspan> </tspan><tspan class="fg-ansi256-010">+ </tspan><tspan>    foo(Enum::</tspan><tspan class="fg-ansi256-010">Struct</tspan><tspan> { x: 0, y: 0 }); // Suggestion could be enhanced</tspan>
 </tspan>
     <tspan x="10px" y="9820px"><tspan>   </tspan><tspan class="fg-ansi256-012 bold">|</tspan>
 </tspan>

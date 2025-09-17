@@ -1,0 +1,18 @@
+error[E0599]: no variant or associated item named `C` found for enum `A` in the current scope
+  --> $DIR/incorrect-variant-single-letter.rs:10:12
+   |
+LL | enum A {
+   | ------ variant or associated item `C` not found for this enum
+...
+LL |     foo(A::C);
+   |            ^ variant or associated item not found in `A`
+   |
+help: there is a variant with a similar name
+   |
+LL -     foo(A::C);
+LL +     foo(A::B());
+   |
+
+error: aborting due to 1 previous error
+
+For more information about this error, try `rustc --explain E0599`.

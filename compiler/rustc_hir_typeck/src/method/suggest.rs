@@ -1632,7 +1632,7 @@ impl<'a, 'tcx> FnCtxt<'a, 'tcx> {
                         (
                             Some((hir::def::CtorKind::Fn, def_id)),
                             hir::ExprKind::Call(rcvr, args),
-                        ) => {
+                        ) if rcvr.hir_id == path_expr.hir_id => {
                             let fn_sig = self.tcx.fn_sig(def_id).instantiate_identity();
                             let inputs = fn_sig.inputs().skip_binder();
                             // FIXME: reuse the logic for "change args" suggestion to account for types
