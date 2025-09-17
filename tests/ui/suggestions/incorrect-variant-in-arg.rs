@@ -14,7 +14,7 @@ fn foo(_: Enum) {}
 fn main() {
     foo(Enum::Unit);
     foo(Enum::Tuple);
-    foo(Enum::Struct);  // Highlight is wrong and suggestion is malformed
+    foo(Enum::Struct);  // Suggestion was malformed
     foo(Enum::Unit());
     foo(Enum::Tuple());
     foo(Enum::Struct());
