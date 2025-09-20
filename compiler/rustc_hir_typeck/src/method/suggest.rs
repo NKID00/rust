@@ -1595,7 +1595,12 @@ impl<'a, 'tcx> FnCtxt<'a, 'tcx> {
                     // We want to also replace variant constructor part like `()` and `{}`.
                     let replacement_span = match parent.kind {
                         hir::ExprKind::Call(callee, ..) if callee.hir_id == path_expr.hir_id => {
-                            span.with_hi(parent.span.hi())
+                            if span.hi() == callee.span.hi() {
+                                span.with_hi(parent.span.hi())
+                            } else {
+                                // Bail if there are parens around the variant like `(A::B)()`
+                                span
+                            }
                         }
                         hir::ExprKind::Struct(..) => span.with_hi(parent.span.hi()),
                         _ => span,

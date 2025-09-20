@@ -1,5 +1,5 @@
 error[E0599]: no variant or associated item named `b` found for enum `A` in the current scope
-  --> $DIR/incorrect-variant-single-letter.rs:15:12
+  --> $DIR/incorrect-variant-single-letter.rs:16:12
    |
 LL | enum A {
    | ------ variant or associated item `b` not found for this enum
@@ -14,7 +14,7 @@ LL +     foo(A::B);
    |
 
 error[E0599]: no variant or associated item named `c` found for enum `A` in the current scope
-  --> $DIR/incorrect-variant-single-letter.rs:16:12
+  --> $DIR/incorrect-variant-single-letter.rs:17:12
    |
 LL | enum A {
    | ------ variant or associated item `c` not found for this enum
@@ -29,7 +29,7 @@ LL +     foo(A::C());
    |
 
 error[E0599]: no variant or associated item named `d` found for enum `A` in the current scope
-  --> $DIR/incorrect-variant-single-letter.rs:17:12
+  --> $DIR/incorrect-variant-single-letter.rs:18:12
    |
 LL | enum A {
    | ------ variant or associated item `d` not found for this enum
@@ -43,23 +43,53 @@ LL -     foo(A::d);
 LL +     foo(A::D(/* i32 */));
    |
 
+error[E0599]: no variant or associated item named `e` found for enum `A` in the current scope
+  --> $DIR/incorrect-variant-single-letter.rs:19:12
+   |
+LL | enum A {
+   | ------ variant or associated item `e` not found for this enum
+...
+LL |     foo(A::e);
+   |            ^ variant or associated item not found in `A`
+   |
+help: there is a variant with a similar name
+   |
+LL -     foo(A::e);
+LL +     foo(A::E {});
+   |
+
+error[E0599]: no variant or associated item named `f` found for enum `A` in the current scope
+  --> $DIR/incorrect-variant-single-letter.rs:20:12
+   |
+LL | enum A {
+   | ------ variant or associated item `f` not found for this enum
+...
+LL |     foo(A::f);
+   |            ^ variant or associated item not found in `A`
+   |
+help: there is a variant with a similar name
+   |
+LL -     foo(A::f);
+LL +     foo(A::F { x: /* value */ });
+   |
+
 error[E0599]: no variant or associated item named `b` found for enum `A` in the current scope
-  --> $DIR/incorrect-variant-single-letter.rs:18:9
+  --> $DIR/incorrect-variant-single-letter.rs:21:9
    |
 LL | enum A {
    | ------ variant or associated item `b` not found for this enum
 ...
-LL |     (A::b)(); // FIXME: Suggestion is malformed
+LL |     (A::b)();
    |         ^ variant or associated item not found in `A`
    |
 help: there is a variant with a similar name
    |
-LL -     (A::b)(); // FIXME: Suggestion is malformed
-LL +     (A::B; // FIXME: Suggestion is malformed
+LL -     (A::b)();
+LL +     (A::B)();
    |
 
 error[E0599]: no variant or associated item named `c` found for enum `A` in the current scope
-  --> $DIR/incorrect-variant-single-letter.rs:20:9
+  --> $DIR/incorrect-variant-single-letter.rs:22:9
    |
 LL | enum A {
    | ------ variant or associated item `c` not found for this enum
@@ -74,7 +104,7 @@ LL +     (A::C)();
    |
 
 error[E0599]: no variant or associated item named `d` found for enum `A` in the current scope
-  --> $DIR/incorrect-variant-single-letter.rs:21:9
+  --> $DIR/incorrect-variant-single-letter.rs:23:9
    |
 LL | enum A {
    | ------ variant or associated item `d` not found for this enum
@@ -88,8 +118,38 @@ LL -     (A::d)();
 LL +     (A::D)(/* i32 */);
    |
 
+error[E0599]: no variant or associated item named `e` found for enum `A` in the current scope
+  --> $DIR/incorrect-variant-single-letter.rs:24:9
+   |
+LL | enum A {
+   | ------ variant or associated item `e` not found for this enum
+...
+LL |     (A::e)();
+   |         ^ variant or associated item not found in `A`
+   |
+help: there is a variant with a similar name
+   |
+LL -     (A::e)();
+LL +     (A::E {})();
+   |
+
+error[E0599]: no variant or associated item named `f` found for enum `A` in the current scope
+  --> $DIR/incorrect-variant-single-letter.rs:25:9
+   |
+LL | enum A {
+   | ------ variant or associated item `f` not found for this enum
+...
+LL |     (A::f)();
+   |         ^ variant or associated item not found in `A`
+   |
+help: there is a variant with a similar name
+   |
+LL -     (A::f)();
+LL +     (A::F { x: /* value */ })();
+   |
+
 error[E0599]: no variant or associated item named `b` found for enum `A` in the current scope
-  --> $DIR/incorrect-variant-single-letter.rs:22:12
+  --> $DIR/incorrect-variant-single-letter.rs:26:12
    |
 LL | enum A {
    | ------ variant or associated item `b` not found for this enum
@@ -104,7 +164,7 @@ LL +     foo(A::B)();
    |
 
 error[E0599]: no variant or associated item named `c` found for enum `A` in the current scope
-  --> $DIR/incorrect-variant-single-letter.rs:23:12
+  --> $DIR/incorrect-variant-single-letter.rs:27:12
    |
 LL | enum A {
    | ------ variant or associated item `c` not found for this enum
@@ -119,7 +179,7 @@ LL +     foo(A::C())();
    |
 
 error[E0599]: no variant or associated item named `d` found for enum `A` in the current scope
-  --> $DIR/incorrect-variant-single-letter.rs:24:12
+  --> $DIR/incorrect-variant-single-letter.rs:28:12
    |
 LL | enum A {
    | ------ variant or associated item `d` not found for this enum
@@ -133,6 +193,36 @@ LL -     foo(A::d)();
 LL +     foo(A::D(/* i32 */))();
    |
 
-error: aborting due to 9 previous errors
+error[E0599]: no variant or associated item named `e` found for enum `A` in the current scope
+  --> $DIR/incorrect-variant-single-letter.rs:29:12
+   |
+LL | enum A {
+   | ------ variant or associated item `e` not found for this enum
+...
+LL |     foo(A::e)();
+   |            ^ variant or associated item not found in `A`
+   |
+help: there is a variant with a similar name
+   |
+LL -     foo(A::e)();
+LL +     foo(A::E {})();
+   |
+
+error[E0599]: no variant or associated item named `f` found for enum `A` in the current scope
+  --> $DIR/incorrect-variant-single-letter.rs:30:12
+   |
+LL | enum A {
+   | ------ variant or associated item `f` not found for this enum
+...
+LL |     foo(A::f)();
+   |            ^ variant or associated item not found in `A`
+   |
+help: there is a variant with a similar name
+   |
+LL -     foo(A::f)();
+LL +     foo(A::F { x: /* value */ })();
+   |
+
+error: aborting due to 15 previous errors
 
 For more information about this error, try `rustc --explain E0599`.
